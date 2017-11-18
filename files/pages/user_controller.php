@@ -1,4 +1,5 @@
 <?php 
+use App\User;
 if ($_POST) {
 	if (isset($_POST['register']))
 	{
@@ -31,7 +32,9 @@ if ($_POST) {
 		$sql = "select * from user_tbl where username = '$username' and password= '$password'";
 		$user = new User();
 		$result = $user->login($sql);
+		
 		if ($result) {
+			
 			$_SESSION['userid'] = $result->user_id;
 			header('Location: ?action=myaccount');
 			echo "<script type= 'text/javascript'>

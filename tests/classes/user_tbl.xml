@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.7.4
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Nov 15, 2017 at 08:26 PM
+- Server version: 10.1.28-MariaDB
+- PHP Version: 5.6.32
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="job" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="user_tbl">
+                CREATE TABLE `user_tbl` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `first_name` varchar(50) NOT NULL,
+                  `second_name` varchar(50) NOT NULL,
+                  `username` varchar(50) NOT NULL,
+                  `password` varchar(50) NOT NULL,
+                  `email` varchar(75) NOT NULL,
+                  `address` varchar(100) NOT NULL,
+                  `country` varchar(50) NOT NULL,
+                  `user_type` varchar(50) NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'job'
+    -->
+    <database name="job">
+        <!-- Table user_tbl -->
+        <table name="user_tbl">
+            <column name="id">1</column>
+            <column name="first_name">Sadikshya</column>
+            <column name="second_name">Sadikshya</column>
+            <column name="username">sadixa</column>
+            <column name="password">sadixa</column>
+            <column name="email">sadixa@sadixa.com</column>
+            <column name="address">London</column>
+            <column name="country">London</column>
+            <column name="user_type"></column>
+        </table>
+        <table name="user_tbl">
+            <column name="id">2</column>
+            <column name="first_name">nikhita</column>
+            <column name="second_name">patutu</column>
+            <column name="username">nikhita</column>
+            <column name="password">nikhita</column>
+            <column name="email">nikhita@nikhita.com</column>
+            <column name="address">London</column>
+            <column name="country">UK</column>
+            <column name="user_type"></column>
+        </table>
+        <table name="user_tbl">
+            <column name="id">5</column>
+            <column name="first_name">Umesh</column>
+            <column name="second_name">Baral</column>
+            <column name="username">umesh</column>
+            <column name="password">umesh</column>
+            <column name="email">umesh@umesh.com</column>
+            <column name="address">London</column>
+            <column name="country">London</column>
+            <column name="user_type">Job Seeker</column>
+        </table>
+        <table name="user_tbl">
+            <column name="id">6</column>
+            <column name="first_name">Aaron</column>
+            <column name="second_name">Aaronn</column>
+            <column name="username">aaron</column>
+            <column name="password">aaron</column>
+            <column name="email">aaron@aaron.com</column>
+            <column name="address">London</column>
+            <column name="country">London</column>
+            <column name="user_type">Job Poster</column>
+        </table>
+        <table name="user_tbl">
+            <column name="id">7</column>
+            <column name="first_name">manish</column>
+            <column name="second_name">shrestha</column>
+            <column name="username">manish</column>
+            <column name="password">manish</column>
+            <column name="email">manishrestha529@gmail.com</column>
+            <column name="address">Kathmandu</column>
+            <column name="country">Nepal</column>
+            <column name="user_type">Job Seeker</column>
+        </table>
+        <table name="user_tbl">
+            <column name="id">8</column>
+            <column name="first_name"></column>
+            <column name="second_name"></column>
+            <column name="username">Sadixa</column>
+            <column name="password">kmgroup123</column>
+            <column name="email"></column>
+            <column name="address"></column>
+            <column name="country"></column>
+            <column name="user_type"></column>
+        </table>
+        <table name="user_tbl">
+            <column name="id">9</column>
+            <column name="first_name">hello</column>
+            <column name="second_name">hello</column>
+            <column name="username">hello</column>
+            <column name="password">hello</column>
+            <column name="email">hello@hello.com</column>
+            <column name="address">london</column>
+            <column name="country">london</column>
+            <column name="user_type">Job Poster</column>
+        </table>
+        <table name="user_tbl">
+            <column name="id">10</column>
+            <column name="first_name">Sadikshya</column>
+            <column name="second_name">Dhaugoda</column>
+            <column name="username">sadixa</column>
+            <column name="password">sadixa</column>
+            <column name="email">sadixa@sadixa.com</column>
+            <column name="address">London</column>
+            <column name="country">UK</column>
+            <column name="user_type">Job Poster</column>
+        </table>
+        <table name="user_tbl">
+            <column name="id">11</column>
+            <column name="first_name">Manish</column>
+            <column name="second_name">shrestha</column>
+            <column name="username">manish</column>
+            <column name="password">manish</column>
+            <column name="email">manishrestha529@gmail.com</column>
+            <column name="address">Kathmandy</column>
+            <column name="country">Nepal</column>
+            <column name="user_type">Job Poster</column>
+        </table>
+    </database>
+</pma_xml_export>

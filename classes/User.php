@@ -1,5 +1,5 @@
 <?php
-
+namespace App;
 class User {
 
     private $db;
@@ -20,7 +20,12 @@ class User {
 
     public function login($sql) {
         $result = $this->db->query($sql);
-        return $result->fetch_object();
+
+        if($result){
+            return $result->fetch_object();
+        }
+
+        return false;
     }
 
     public function lists() {
